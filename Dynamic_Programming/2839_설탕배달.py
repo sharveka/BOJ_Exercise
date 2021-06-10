@@ -15,3 +15,19 @@ if n<0:
 
 else:
     print(result)
+    
+'''
+https://www.acmicpc.net/problem/2839
+
+입력 예시
+18
+
+출력
+4
+
+입력 예시
+4
+
+출력
+-1
+'''
