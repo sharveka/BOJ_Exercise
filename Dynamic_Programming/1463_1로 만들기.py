@@ -1,3 +1,6 @@
+# 다이나믹 프로그래밍 Bottom up
+
+
 n=int(input())
 
 #DP테이블 초기화
@@ -18,3 +21,13 @@ for i in range(2, n+1):
         d[i]=min(d[i], d[i//3]+1)
 
 print(d[n])
+
+'''
+https://www.acmicpc.net/problem/1463
+
+입력 예시
+10
+
+출력 
+3
+'''
