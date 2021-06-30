@@ -1,20 +1,18 @@
 # 문자열 잘라서 정수형으로 변환
 # 점수 입력하기
 n=input()
-left, right=0, 0
 
+sum_value=0
 for i in range(len(n)):
-    if i<(len(n)//2):
-        left+=int(n[i])
-
+    if i<len(n)//2:
+        sum_value+=int(n[i])
     else:
-        right+=int(n[i])
+        sum_value-=int(n[i])
 
-if left==right:
-    print("LUCKY")
-
+if sum_value==0:
+    print('LUCKY')
 else:
-    print("READY")
+    print('READY')
 
 
 '''
