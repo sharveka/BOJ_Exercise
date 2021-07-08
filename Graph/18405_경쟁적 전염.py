@@ -1,3 +1,5 @@
+# BFS
+
 import sys
 from collections import deque
 input=sys.stdin.readline
@@ -57,4 +59,4 @@ https://www.acmicpc.net/problem/18405
 
 출력
 1
-'''
+''' 
