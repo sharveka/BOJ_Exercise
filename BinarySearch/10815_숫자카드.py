@@ -38,6 +38,7 @@ m=int(input())
 data=list(map(int, input().split()))
 
 for datum in data:
+    # 내가 가진 카드에 있는지 확인만 해주면 된다.
     if datum in mine:
         print(1, end=' ')
     else:
