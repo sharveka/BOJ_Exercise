@@ -1,6 +1,5 @@
 # 다이나믹 프로그래밍 Bottom up
 
-
 n=int(input())
 
 #DP테이블 초기화
